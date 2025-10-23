@@ -2,7 +2,7 @@ export const breakfastItems = [
 {   name: "pancakes",
     ingredients: ["flour", "milk", "eggs", "butter"],
     steps: ["Mix ingredients", "Cook on griddle", "Serve warm"],
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bhg.com%2Frecipe%2Fpancakes-waffles%2Fpancakes%2F&psig=AOvVaw0rvBXvkKDpUQLiJ1kIaRkD&ust=1760662596250000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCMDFg7fBp5ADFQAAAAAdAAAAABAE",
+    image: "https://www.marthastewart.com/thmb/O75E9rwQRD3F1Q4zFKWDrdsg15c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/338185-basic-pancakes-09-00b18f8418fd4e52bb2050173d083d04.jpg",
     video: "https://www.youtube.com/embed/NCMKedZvnyI?si=YpTdQh-p5zX-3bVl"
 },
 
@@ -11,5 +11,11 @@ export const breakfastItems = [
     steps: ["Boil milk", "Add oats", "Simmer and serve"],
     image: "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/oatmeal-recipe.jpg",
     video: "https://www.youtube.com/embed/JzsNQOwI-sA?si=0xPCuhp7Fij9gfUB"
+},
+
+{   name: "breadsticks",
+    ingredients: ["bread", "cheese", "garlic"],
+    steps:["bake the bread", "grill the cheese", "finishing touches"],
+    image: "https://valentinascorner.com/wp-content/uploads/2020/03/Breadsticks-1.jpg"
 }
 ]
