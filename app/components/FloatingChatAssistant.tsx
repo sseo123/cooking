@@ -1,8 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Spline from "@splinetool/react-spline";
-
 
 interface Message {
   role: "user" | "assistant";
@@ -65,8 +63,8 @@ export default function FloatingChatAssistant() {
           {/* Header */}
           <div className="bg-gradient-to-r from-orange-500 to-red-500 text-white p-4 rounded-t-2xl flex justify-between items-center">
             <div>
-              <h3 className="font-bold text-lg">Cooking Helper</h3>
-              <p className="text-xs opacity-90">Measurements & techniques</p>
+              <h3 className="font-bold text-lg">MiniChef</h3>
+              <p className="text-xs opacity-90">Ready to start cooking?</p>
             </div>
             <button
               onClick={() => setIsOpen(false)}
@@ -93,7 +91,7 @@ export default function FloatingChatAssistant() {
           <div className="flex-1 overflow-y-auto p-4 space-y-3">
             {messages.length === 0 && (
               <div className="text-center text-gray-500 mt-8">
-                <p className="text-sm">👋 Hi! I can help with:</p>
+                <p className="text-sm">👋 Hi! I can help you with:</p>
                 <ul className="text-xs mt-2 space-y-1">
                   <li>• Converting measurements</li>
                   <li>• Explaining cooking techniques</li>
