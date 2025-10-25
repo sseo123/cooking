@@ -19,7 +19,7 @@ const categories = [
     slug: 'dinner',
     name: 'Dinner',
     emoji: '🍝',
-    gradient: 'from-red-400 to-pink-300',
+    gradient: 'from-red-600 to-red-600',
   },
   {
     slug: 'dessert',
@@ -112,13 +112,13 @@ export default function FoodPage() {
 
       {!splineLoaded && !splineError && <LoadingSkeleton />}
 
-      <div className="text-center mb-12 z-10 px-4 opacity-0 animate-fade-in" 
+      <div className="text-center mb-40 px-4 opacity-0 animate-fade-in" 
         style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
         <h1 className="text-6xl md:text-7xl font-bold text-white mb-5 drop-shadow-2xl">
           Ready to cook?
         </h1>
-        <p className="text-xl md:text-2xl text-white/90 drop-shadow-lg mb-50">
-          The days of not knowing what to cook is over
+        <p className="text-xl md:text-2xl text-black drop-shadow-lg mb-50">
+          select one of the below!
         </p>
       </div>
 
